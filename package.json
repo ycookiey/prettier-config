@@ -1,0 +1,15 @@
+{
+    "name": "@ycookiey/prettier-config",
+    "version": "1.0.0",
+    "description": "My Prettier config. TypeScript, React, Double Quotes, Strict.",
+    "main": "index.json",
+    "license": "MIT",
+    "keywords": [
+        "prettier",
+        "config",
+        "ycookiey"
+    ],
+    "publishConfig": {
+        "access": "public"
+    }
+}
