@@ -1,14 +1,24 @@
 {
     "name": "@ycookiey/prettier-config",
     "version": "1.0.0",
-    "description": "My Prettier config. TypeScript, React, Double Quotes, Strict.",
+    "description": "Shared Prettier config: no semicolons, and trailing commas only where ES5 allows them",
     "main": "index.json",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ycookiey/prettier-config.git"
+    },
     "keywords": [
         "prettier",
-        "config",
-        "ycookiey"
+        "prettier-config",
+        "config"
     ],
+    "files": [
+        "index.json"
+    ],
+    "peerDependencies": {
+        "prettier": ">=3.0.0"
+    },
     "publishConfig": {
         "access": "public"
     }
